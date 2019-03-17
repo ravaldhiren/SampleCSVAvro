@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/dhirenc/Aldermore/CSVtoAVROConvert/src/main/scala/csvmain.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SQLContext[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dhirenc/Aldermore/CSVtoAVROConvert/src/main/scala/csvmain.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf,SparkContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dhirenc/Aldermore/CSVtoAVROConvert/src/main/scala/csvmain.scala:3:12: object databricks is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.databricks.spark.avro._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dhirenc/Aldermore/CSVtoAVROConvert/src/main/scala/csvmain.scala:11:19: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m    var cnf = new SparkConf().setAppName("Aldcsvamro").setMaster("local[*]")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dhirenc/Aldermore/CSVtoAVROConvert/src/main/scala/csvmain.scala:13:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext(cnf)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dhirenc/Aldermore/CSVtoAVROConvert/src/main/scala/csvmain.scala:15:26: not found: type SQLContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sqlContext = new SQLContext(sc)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

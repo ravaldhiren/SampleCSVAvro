@@ -1,0 +1,5 @@
+pwd
+scalac /Users/dhirenc/Aldermore/CSVtoAVROConvert/src/main/scala/HelloWorld.scala
+:q
+:quit
+:q
